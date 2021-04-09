@@ -138,9 +138,7 @@ def calculate_4Dtv(codon_file,codon_d,transversion_d):
                         out_file.write('{0};{1},{2},{3},{4},{5}\n'.format(names[0],names[1],d,round(v,4),codon_4d,codon_4dt))
             except ValueError:
                 return
-
-    
-            
+                
 if __name__ == '__main__':
     #main_process
     parser = argparse.ArgumentParser(description=__doc__,prog='constructSpeciesTree.py')
