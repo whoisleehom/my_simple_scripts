@@ -1,5 +1,7 @@
-import argparse
+__author__ = 'Yuan GAO'
+__organization__ = 'AGIS'
 
+import argparse
 
 def generateUniqSeqByKvalue(kvalue:int,seq_type:str,max_len:int):
     seq_list = []
