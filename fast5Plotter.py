@@ -5,6 +5,10 @@ import h5py as h5
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
+__author__ = 'Yuan GAO'
+__organization__ = 'AGIS'
+__doc__ = ('A script for drawing current intensity from ONT fast5 file.')
+
 def drawBatch(work_dir:str,batch_size:int,window_size:int,name_head:str):
     
     raw_data_list = []
