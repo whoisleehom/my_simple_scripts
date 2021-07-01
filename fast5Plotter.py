@@ -79,7 +79,7 @@ def drawBatch(batch:list):
 
 
 def getArgs():
-    parser = argparse.ArgumentParser(description=__doc__,prog='uniqKmerGenerator.py')
+    parser = argparse.ArgumentParser(description=__doc__,prog='fast5plotter.py')
     parser.add_argument('-d',action='store',dest='fast5_dir',required=True,type=str,
         help='the path to the folder of your fast5 files')
     parser.add_argument('-b',action='store',dest='batch_size',required=True,type=int,
